@@ -1,1 +1,63 @@
 /*  your css code here. If applicable */
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply styles to the container */
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Style the navigation bar */
+.nav {
+    flex: 1;
+    background-color: #D7E8D4;
+    padding: 1em;
+    min-width: 16.67%; /* 1/6th of the width */
+}
+
+/* Style the main content */
+.main {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style the header */
+.header {
+    background-color: yellowgreen;
+    flex: 1;
+    padding: 1em;
+}
+
+/* Style the content section */
+.content {
+    flex: 5;
+    display: flex;
+}
+
+/* Style the article section */
+.article {
+    flex: 3;
+    background-color: white; /* Adjust as needed */
+    padding: 1em;
+    min-height: 60vh;
+}
+
+/* Style the aside section */
+.aside {
+    flex: 1;
+    background-color: lightgray; /* Adjust as needed */
+    padding: 1em;
+}
+
+/* Style the footer */
+.footer {
+    background-color: yellowgreen;
+    flex: 1;
+    padding: 1em;
+}
